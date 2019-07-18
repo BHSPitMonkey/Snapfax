@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d3b14f41fdde8c9582ad919b5a2a8053.js"
+  "/precache-manifest.d84cfb7be0495a4b6a766136afbc1979.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -23,8 +23,6 @@ self.addEventListener('message', (event) => {
   }
 });
 
-workbox.core.clientsClaim();
-
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
@@ -32,8 +30,3 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
-  
-  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
-});

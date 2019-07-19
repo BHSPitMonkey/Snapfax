@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.e532521607e323b9d0f648faff0e4717.js"
+  "/precache-manifest.47ba7539a59757cbc13451477d40521f.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -32,6 +32,10 @@ self.__precacheManifest = [
   {
     "url": "cancel.svg",
     "revision": "aa7768f7e598ef3e7cda9ef8439c902c"
+  },
+  {
+    "url": "favicon.ico",
+    "revision": "414e16fe2eabfd7c2cac16a09646aef6"
   },
   {
     "url": "flip.svg",
@@ -56,6 +60,10 @@ self.__precacheManifest = [
   {
     "url": "NNC.json",
     "revision": "714496c20d717099ab64984e1ffe4bf2"
+  },
+  {
+    "url": "noise.m4a",
+    "revision": "68b44330de6ad7f88ef25e34671e5e03"
   },
   {
     "url": "send.svg",
